@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Vk block",
+    "description": "Extension that helps you to visit vk.com much less",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "48":"icon48.png",
+        "128":"icon128.png",
+        "32":"icon32.png"
+    },
+    "browser_action": {
+        "default_title": "Vk block",
+        "default_icon": "icon48.png"
+    }
+}
